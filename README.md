@@ -125,9 +125,9 @@ ghostty
 
 ## 📚 Learn more
 
-- 📘 [Ghostty official GitHub](https://github.com/ghostty-org/ghostty) — Terminal emulator written in Rust and C, GPU-accelerated and minimal.
-- 🎨 [Catppuccin theme for Ghostty](https://github.com/catppuccin/ghostty) — Official Catppuccin port with multiple flavors.
-- 🐛 [Ghostty issues & support](https://github.com/ghostty-org/ghostty/issues) — Report bugs, read current limitations or follow progress.
+- 📘 [Ghostty official GitHub](https://github.com/ghostty-org/ghostty) : Terminal emulator written in Rust and C, GPU-accelerated and minimal.
+- 🎨 [Catppuccin theme for Ghostty](https://github.com/catppuccin/ghostty) : Official Catppuccin port with multiple flavors.
+- 🐛 [Ghostty issues & support](https://github.com/ghostty-org/ghostty/issues) : Report bugs, read current limitations or follow progress.
 
 ## 🌐 Discover my NixOS system portal
 
