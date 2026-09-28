@@ -22,6 +22,18 @@ in {
 		cp ${./custom.css} ${home}/.config/ghostty/custom.css
 		chown ${username}:${group} ${home}/.config/ghostty/custom.css
 		chmod 600 ${home}/.config/ghostty/custom.css
+
+		mkdir ${home}/.config/ghostty/themes
+		chown ${username}:${group} ${home}/.config/ghostty/themes
+		chmod 700 ${home}/.config/ghostty/themes
+
+		cp ${./themes/catppuccin-mocha-green} ${home}/.config/ghostty/themes/catppuccin-mocha-green
+		chown ${username}:${group} ${home}/.config/ghostty/themes/catppuccin-mocha-green
+		chmod 600 ${home}/.config/ghostty/themes/catppuccin-mocha-green
+
+		cp ${./themes/catppuccin-latte-green} ${home}/.config/ghostty/themes/catppuccin-latte-green
+		chown ${username}:${group} ${home}/.config/ghostty/themes/catppuccin-latte-green
+		chmod 600 ${home}/.config/ghostty/themes/catppuccin-latte-green
 	'';
 
 	environment.systemPackages = with pkgs; [

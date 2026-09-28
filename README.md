@@ -9,7 +9,7 @@
 
 # 👻 NixOS Ghostty
 
-> Declarative NixOS module to deploy Ghostty, a terminal, with Catppuccin mocha green theme, custom CSS and secure per-user config.
+> Declarative NixOS module to deploy Ghostty, a terminal, with Catppuccin mocha green and latte green themes, custom CSS and secure per-user config.
 
 ## 🧩 Part of the Typovrak NixOS ecosystem
 
@@ -28,8 +28,16 @@ This module is part of ```Typovrak NixOS```, a fully modular and declarative ope
 ## 📦 Features
 
 - 🔒 **Secure config directory :** Creates ```~/.config/ghostty``` with ```700``` permissions and correct ownership.
+<<<<<<< HEAD
 - 🎨 **Catppuccin mocha green theme :** Applies the Catppuccin mocha palette and custom CSS to Ghostty’s GTK UI.
 - ⚙️ **Config deployment :** Installs ```config``` and ```custom.css``` into the user’s Ghostty config folder with ```600``` permissions.
+=======
+
+- 🎨 **Catppuccin mocha green / latte green themes :** Switches automatically between mocha green (dark) and latte green (light) following the desktop color scheme, plus custom CSS for Ghostty’s GTK UI.
+
+- ⚙️ **Config deployment :** Installs ```config```, ```custom.css``` and ```themes/``` into the user’s Ghostty config folder with ```600``` permissions.
+
+>>>>>>> c69d27a (feat(theme): add catppuccin mocha green and latte green themes)
 - 📦 **Ghostty package :** Ensures ```ghostty``` is installed via ```environment.systemPackages```.
 - 🔄 **Idempotent :** Cleans and recreates config on each rebuild without removing other user data.
 - 💾 **Backup guidance :** Documentation details how to back up any existing ```~/.config/ghostty``` before applying changes.
